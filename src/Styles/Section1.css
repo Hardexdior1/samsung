@@ -1,0 +1,125 @@
+
+.section1Wrap{
+    
+    /* padding: 30px 50px 30px 50px; */
+
+}
+.section1OverAllWrap{
+    display: grid;
+    gap: 24px;
+    padding: 5% 10%;
+
+    /* padding:30px 0px 30px 0px ; */
+}
+
+.stepsWrap{
+    /*  */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+/* @media (min-width:1023px) {
+    .section1Wrap{
+        padding: 30px  9% 30px 9%;
+
+    }
+} */
+.artificialWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+.artificialWrap h1{
+    margin-bottom: 0;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 34.3px;
+    color: #000;
+}
+@media (max-width:300px) {
+    .artificialWrap h1{
+        /* font-size: 20px; */
+display:none;
+    }
+}
+
+.artificialWrap p{
+    margin-top: 20px;
+    font-size: 18.2px ;
+
+}
+.artificialWrap li{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+font-weight: 800;
+}
+.section1OverAllWrap p{
+    color: #848991;
+    font-family: 'Times New Roman', Times, serif;
+}
+.stepIcon{
+    /* color: rgb(49, 19, 216); */
+    font-size: 70px;
+    color: white;
+    background-color: #000397;
+    display: inline-block;
+    border-radius: 2.2rem;
+    border: none;
+}
+.black{
+    color: black;
+    
+}
+
+.flexIconText{
+    display: flex;
+    align-items: top;
+    gap: 15px;
+}
+.flexSteps{
+    display: flex;
+    align-items: top;
+    gap: 15px;
+    flex-direction: column;
+}
+.flexIconText li{
+    margin-bottom: 0;
+}
+.flexIconText p{
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 30px ;
+}
+.flexIconText b{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.samsungWrap button{
+padding: 20px 42px ;
+background-color: #000397;
+border: none;
+border-radius: 20px ;
+color: white;
+font-weight: 800;
+cursor: pointer;
+margin-top: 20px;
+}
+.samsungWrap h4{
+    margin-bottom: 0;
+}
+.samsungWrap p{
+    margin-top: 0;
+}
+.samsungWrap{
+    display: grid;
+    gap: 40px;
+}
+.samsungWrap video{
+    width: 100%;
+}

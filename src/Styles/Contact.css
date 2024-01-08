@@ -1,0 +1,92 @@
+.admin{
+    margin: 20px;
+}
+.formAndTextWrap h4{
+    font-family: sans-serif;
+}
+.formAndTextWrap button{
+    padding: 15px 35px ;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+    background-color: #000397;
+    border: none;
+    margin-top: 6%;
+}
+.formAndTextWrap input{
+    height: 40px;
+    border: 1px solid rgb(211, 205, 205) ;
+}
+.formAndTextWrap textarea{
+    border: 1px solid rgb(211, 205, 226) ;
+
+}
+.sub{
+    text-align: center;
+}
+.flexEmail{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+
+}
+.reach h4{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.ContactWrap{
+    padding: 1% 8%;
+
+}
+.ContactWrap a{
+    color:#000397;
+}
+.reach{
+    max-width: 50%;
+}
+.reach p{
+    font-family: 'Courier New', Courier, monospace;
+font-size: 16px;
+color: #848991;
+line-height: 20px;
+margin-top: 5px;
+}
+.formAndTextWrap{
+display: grid;
+gap: 5%;
+grid-template-columns: 4fr 1fr ;
+justify-content: space-between;
+align-items: self-start;
+}
+@media (max-width:1023px) {
+    .formAndTextWrap{
+        grid-template-columns: 1fr;
+    }
+    .reach{
+        max-width: none;
+    }
+}
+.formAndTextWrap input,textarea{
+    width: 100%;
+    padding-left: 5px;
+    
+}
+
+@media (max-width:290px) {
+    .formAndTextWrap input,textarea{
+        width: 90%;
+        padding-left: 5px;
+        
+    }
+}
+form{
+    display: grid;
+    gap: 20px;
+    margin-top: 10px;
+}
+@media (max-width:1033px) {
+    .formAndTextWrap{
+        margin-bottom: 12%;
+    }
+}
+

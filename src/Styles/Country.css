@@ -1,0 +1,217 @@
+.beneficiariesWrap h2{
+    font-size:35.2px ;
+}
+.beneficiariesWrap{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cccccc;
+    height: 50vh;
+    padding: 0% 5% ;
+}
+
+.countriesWrap button{
+    padding: 20px 42px ;
+background-color: #000397;
+border: none;
+border-radius: 2px ;
+color: white;
+font-weight: 800;
+cursor: pointer;
+margin-top: 40px;
+}
+.countriesWrap img{
+    margin-top: 0;
+}
+.countriesWrap h2{
+    margin-bottom: 4px;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.countriesWrap{
+    padding:0% 5%;
+}
+.countriesGrid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5%;
+    gap: 4%;
+    background-color: #faf9f9;
+
+}
+@media (max-width:767px) {
+    .countriesGrid{
+        flex-direction: column;
+    }
+}
+.countriesGrid2{
+    background-color: #faf9f9;
+    padding: 5%;
+
+}
+.countriesGrid img{
+    width: 100%;
+}
+
+/* review css */
+.reviewsWrap{
+    padding: 5%;
+    background-color: #faf9f9;
+    display: grid;
+    gap: 5%;
+}
+.reviewsWrap p{
+    color: #848991;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.reviewsWrap h4{
+    font-size: 16px;
+    margin-top: 0;
+}
+.reviewsWrap i{
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.flexReview{
+    display:grid;
+grid-template-columns:4fr 1.5fr ;
+box-shadow: 4px 4px 10px  rgb(223, 221, 219);
+border: 1px solid grey;
+border-radius: 3px;
+height: 40vh;
+padding-left: 3%;
+gap: 3%;
+}
+.flexReview img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pad{
+    /* padding: 2% 2% 20px  0%; */
+    padding: 2%;
+}
+.para{
+    line-height: 35px;
+    margin-top: 0;
+}
+.quote{
+    color: blue;
+    padding-top: 10px;
+    font-weight: bolder;
+    margin-bottom: 0;
+   
+}
+.carbonWRap{
+     background-color: #faf9f9;
+    padding: 5%;
+}
+.carbonWRap img{
+width: 100%;
+}
+@media (max-width:800px) {
+    .flexReview{
+        grid-template-columns: 1fr;
+        height: fit-content;
+        gap: 0px;
+        padding-left: 0%;
+    }
+    .flexReview img{
+        height: 100%;
+    }
+    .countryOverAllWrap{
+        padding-bottom: 15%;
+    }
+    .pad{
+        padding: 10%;
+    }
+}
+
+.timeWrap p{
+    color: #31c0ef;
+    font-size: 9.6px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 3px;
+}
+
+.timeWrap h4{
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.timeWrap small{
+    margin-top: 3px;
+    font-size: 9.6px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #848991;
+
+}
+.flexIconTIme{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+.clock{
+    color: #848991;
+}
+
+
+/* question css */
+.getAnswersWrap{
+    padding: 10%;
+}
+
+.center{
+    text-align: center;
+}
+.center h1{
+font-size: 27.2px;
+}
+.getAnswersWrap{
+    font-family: sans-serif;
+}
+.getAnswersWrap p{
+font-size: 19px;
+color: #848991;
+font-family: sans-serif;
+margin-top: 0;
+}
+.getAnswersWrap h4{
+    font-size: 19px;
+    margin-bottom: 3px;
+
+}
+.icon3{
+    color: blue;
+    font-size: 28px;
+}
+
+.flexEnq{
+    display: flex;
+    /* align-items: top; */
+    gap: 4%;
+    align-items: first baseline;
+}
+.flexQuestion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: space-between;
+    gap: 3%;
+}
+.flexEnq{
+    padding: 4% 10%;
+    background-color: #ece8e8;
+}
+@media (max-width:1023px) {
+    .flexQuestion{
+       grid-template-columns: 1fr;
+    }
+}

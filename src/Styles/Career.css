@@ -1,0 +1,91 @@
+.careerWrap{
+    padding: 17% 7% 5% 7%;
+    font-family: sans-serif;
+
+}
+
+.careerWrap p{
+    color: #848991;
+    font-size: 16px;
+
+}
+.careerWrap h4{
+    font-size: 16px;
+}
+.careerWrap h3{
+    font-size: 24px;
+}
+.firstCareerP{
+    text-align: center;
+    line-height: 30px;
+
+}
+.careerWrap b{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.careerWrap a{
+    font-size: 16px;
+    color: #551a8b;
+    font-weight:700;
+    font-family: sans-serif;
+}
+.flexJobs{
+    /* display: flex; */
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+gap: 20px ;
+}
+
+.flexJobs p{
+    line-height: 30px;
+
+}
+.borderDiv{
+    padding: 30px 37px ;
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 5px; */
+    border: 1px solid #848991 ;
+}
+.workGrid{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+gap: 20px ;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.workGrid p{
+    line-height: 25px;
+}
+
+
+
+.workWrap{
+    display: grid;
+    gap: 50px;
+}
+.workWrap img,b{
+    margin-bottom: 25px;
+}
+
+@media (max-width:1023px) {
+    .careerWrap{
+        padding: 15% 6%;
+    }
+}
+
+@media (max-width:767px){
+.flexJobs,.workGrid{
+    grid-template-columns: 1fr;
+}
+.borderDiv{
+    padding: 30px 10px;
+}
+.workWrap{
+    text-align: center;
+}
+
+}

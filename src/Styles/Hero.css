@@ -1,0 +1,193 @@
+
+
+.heroSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+      background-color: blue;
+      opacity: .7 ;
+      text-align: center;
+    padding: 80px 20px ;
+}
+@media (min-width:1024px) {
+    .heroSection{
+        padding: 15% 20px 10% 20px  ;
+    }
+}
+.heroSection p{
+    margin-top: 10px ;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: 'Times New Roman',;
+}
+.heroSection h1{
+    margin-bottom: 10px ;
+    font-size: 2.3rem;
+}
+.heroSection button{
+    margin-top: 20px;
+    color: #800080;
+    font-weight:600;
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 15px ;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* about.css */
+.makingWrap{
+    padding:5% 10% 5% 10%;
+}
+.makingSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+   padding: 10% 0px 10% 0px ;
+}
+.makingSection h4{
+    color: #000397;
+}
+.makingSection p{
+    color: #848991;
+    line-height: 30px;
+    font-size: 18px ;
+}
+
+.samsungCompanyWrap p{
+    font-size: 19.2px ;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0;
+    line-height: 30px ;
+}
+.samsungCompanyWrap h4{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.samsungCompanyWrap img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.samsungCompanyWrap button{
+    padding: 20px 42px ;
+background-color: #000397;
+border: none;
+border-radius: 20px ;
+color: white;
+font-weight: 800;
+cursor: pointer;
+margin-top: 20px;
+}
+.story{
+    margin-bottom: 0;
+}
+.flexJoin{
+    display: flex;
+    justify-content: end;
+}
+.ourStoryFlex{
+    /* display: flex; */
+   
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 10%; */
+}
+.ourStoryFlex img{
+    width: 65%;
+    /* height: 20%; */
+}
+.gridImages{
+    display: flex;
+    grid-template-columns: 1fr 1fr ;
+    position: relative;
+}
+.woman{
+margin-right: -100px;
+z-index: 10;
+width: 60%;
+}
+.centerH1{
+    text-align: center;
+}
+
+
+
+.undefinedImgAndTextWrap{
+    padding: 5%  10%  ;
+    display: flex;
+    align-items: center;
+    background-color: #e1eaf3b6;
+    justify-content: space-between;
+
+}
+@media (max-width:767px) {
+    .undefinedImgAndTextWrap{
+        flex-direction: column;
+    }
+}
+.undefinedImgAndTextWrap img{
+    width: 100%;
+}
+.undefinedImgAndTextWrap p{
+    font-size: 24px;
+}
+.undefinedImgAndTextWrap h4{
+    font-size: 16px ;
+    margin-top: 5px;
+}
+.undefinedImgAndTextWrap i{
+    margin-bottom: 0;
+}
+
+
+/* team css  */
+.teamsWrap{
+    padding: 10%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.teamsWrap p{
+    margin-top: 3px;
+}
+.teamsWrap h4{
+    font-size: 19.2px ;
+    margin-bottom: 0;
+}
+.flexTeamImgAndText{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr ;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+.flexTeamImgAndText2{
+    display: grid;
+    grid-template-columns: 3fr 1.5fr ;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+}
+.teamsWrap img{
+    width: 100%;
+ 
+}
+@media (max-width:767px) {
+    .flexTeamImgAndText2{
+       display: flex;
+       flex-direction: column-reverse;
+       margin-top: 10%;
+
+    }
+.flexTeamImgAndText{
+    grid-template-columns: 1fr;
+    margin-bottom: 10%;
+}
+}
+body{
+    padding-bottom: 400px;
+}

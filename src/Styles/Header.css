@@ -1,0 +1,226 @@
+.firstHeader{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 10px 0px 10px 50px ;
+    background-color:#000397;
+    font-family:sans-serif;
+    opacity: .7;
+    color: white;
+   
+    
+}
+a{
+    text-decoration: none;
+}
+@media (max-width:1023px) {
+    .firstHeader{
+        display: none;
+    }
+}
+.headerWrap{
+    /* position: relative; */
+    
+            z-index: 1000;
+
+   /* margin-bottom: 500px; */
+   position: fixed;
+   left: 0;
+   right: 0;
+}
+.ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.linkWrap{
+    display: flex;
+    gap:20px;
+   
+}
+@media (min-width:1085px) {
+    .linkWrap{
+        position: absolute;
+        right: 520px ;
+    }
+}
+.active{
+    color:#848991  ;
+}
+.notActive{
+    color: white;
+    text-decoration: none;
+}
+.more{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    font-family: sans-serif;
+    padding: 12px 30px ;
+    opacity: .7;
+    /* position: fixed;
+    left: 0;
+    right: 0; */
+    z-index: 900;
+/* display: none; */
+  
+  
+    
+}
+.navbarChangeBackGround{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    font-family: sans-serif;
+    padding: 12px 30px ;
+    opacity: .7;
+    /* position: fixed;
+    left: 0;
+    right: 0; */
+    z-index: 95;
+}
+.navLogo{
+    width: 150px;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar li a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+.verifyWrap{
+    display: flex;
+    gap: 20px;
+}
+.verifyWrap button{
+    /* background-color: red; */
+    border: none;
+    cursor: pointer;
+    height: 38px;
+    /* width: 100px; */
+    font-weight: 500;
+    font-size: 20px;
+    color: #800080;
+    font-family:'khand 'sans-serif;
+    border-radius: 3px ;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    /* text-align: center; */
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: 0.3s;
+}
+.remove{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 50px;
+    font-weight:100;
+    transition: 0.3s ;
+}
+@media (min-width:1024px){
+.menu,.remove{
+    display: none;
+}
+}
+.menu div{
+    height: 3.5px;
+    width: 43px;
+    background-color: white;
+}
+@media (max-width:1023px) {
+    .ul{
+        position: absolute;
+        flex-direction: column;
+        background-color: #000397;
+        top: -14px ;
+        left: -200px;
+        transition: 0.3s ;
+        align-items: start;
+        padding: 20px 0px 20px 15px ;
+        width: 180px;
+        height: 100vh;
+    }
+    .ulShow{
+        
+            position: absolute;
+            flex-direction: column;
+            background-color: #000397;
+            top: -14px ;
+            left: 0;
+            transition: 0.3s ;
+            align-items: start;
+            padding: 20px 0px 20px 15px ;
+            width: 180px;
+            height: 100vh;
+
+        
+    }
+    .verifyWrap{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .verifyWrap button{
+        /* border-radius: 2rem; */
+    }
+    .linkWrap{
+        flex-direction: column;
+        gap: 40px ;
+    }
+    .navbar{
+        padding: 10px 25px ;
+    }
+  
+}
+
+
+
+.samsungWrap p{
+    font-size: 20.8px;
+    color: #848991;
+    line-height: 30px;
+}
+.samsungWrap h1{
+    font-size: 36px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+/* hello */
+
+
+.hideMore{
+    display: none;
+}
+.showMore{
+   margin-top:  50px;
+   /* color: red; */
+    /* margin-top: 30px; */
+}
+@media (min-width:1024px) {
+    .showMore{
+        position: absolute;
+        margin-top:  50px;
+
+    }
+}
+/* @media (max-width:1023px) {
+    .hello{
+        
+    }
+} */
