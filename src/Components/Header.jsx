@@ -104,6 +104,7 @@ const Header = () => {
                 onClick={() => {
                   hideNav();
                   setToggle(true);
+                  showMore()
                 }}>
                 Team
               </Link>{" "}
@@ -119,6 +120,7 @@ const Header = () => {
                 onClick={() => {
                   hideNav();
                   setToggle(true);
+                  showMore()
                 }}>
                 Career
               </Link>{" "}

@@ -42,7 +42,6 @@ function App() {
 
       </BrowserRouter>
 
-<a href="">REFRESH</a>
     </div>
   );
 }

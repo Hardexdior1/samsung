@@ -208,15 +208,20 @@ li{
     display: none;
 }
 .showMore{
-   margin-top:  50px;
+   margin-top:  40px;
+   display: grid;
+gap: 20px;
    /* color: red; */
     /* margin-top: 30px; */
 }
 @media (min-width:1024px) {
     .showMore{
         position: absolute;
-        margin-top:  50px;
-
+        margin-top:  37px;
+        background-color: black;
+display: grid;
+gap: 20px;
+padding: 10px 50px ;
     }
 }
 /* @media (max-width:1023px) {
