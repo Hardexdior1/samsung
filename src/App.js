@@ -20,7 +20,7 @@ function App() {
 //     
 
     <div className="App">
-   <h1>HELLLLLOOO</h1>
+   
       <BrowserRouter>
       <Header />
         <Routes>
